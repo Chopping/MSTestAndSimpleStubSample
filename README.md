@@ -27,6 +27,13 @@
 * UserMagr.cs(App1) 简单的业务逻辑层类
 * TestMagr.cs(UnitTestProject1) 简单的测试UserMagr类的测试类
 
+### 项目环境
+* Windows 10 OS
+* Windows 10 SDK 10.0.15860
+* Visual Studio 2017
+* MSTest Framework 1.2.0
+* Etg.SimpleStubs 2.4.6
+
 ### 框架简介：
 
 * 驱动程序：MSTest Framework 提供的Runner + TestAdapter
