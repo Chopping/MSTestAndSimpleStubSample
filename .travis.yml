@@ -5,7 +5,6 @@ mono:
   - latest
 install:
   - sudo apt-get install -y gtk-sharp2
-  - sudo dpkg -i packages-microsoft-prod.deb
   - sudo apt-get install nuget
   - sudo apt-get install dotnet-sdk-2.1.105
   - sudo apt-get install dotnet-runtime-2.0.6
