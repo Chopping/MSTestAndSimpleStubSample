@@ -1,6 +1,8 @@
 language: csharp
 solution: MSTestAndSimpleStub.sln
 dotnet: 2.1.104
+mono:
+  - latest
 
 script:
   - dotnet restore
