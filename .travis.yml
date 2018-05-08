@@ -1,6 +1,5 @@
 language: csharp
 solution: MSTestAndSimpleStub.sln
-dotnet: 2.1.104
 
 install:
   - sudo apt-get install -y gtk-sharp2
