@@ -1,11 +1,14 @@
 language: csharp
 solution: MSTestAndSimpleStub.sln
+dotnet: 2.1.104
 
-install:
-  - sudo apt-get install -y gtk-sharp2
-  - nuget restore MSTestAndSimpleStub.sln
- script:    # the following commands are just examples, use whatever your build process requires
+script:
   - dotnet restore
   - ./build.sh
   - ./test.sh
   - grep "Test Results" build.log
+
+install:
+  - sudo apt-get install -y gtk-sharp2
+  - nuget restore MSTestAndSimpleStub.sln
+
