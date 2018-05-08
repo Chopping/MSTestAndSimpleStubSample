@@ -1,3 +1,5 @@
 language: csharp
+before_install:
+ - chmod +x build/build.mono.sh
 install:
   - nuget restore MSTestAndSimpleStub.sln
